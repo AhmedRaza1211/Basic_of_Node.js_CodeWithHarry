@@ -1,0 +1,14 @@
+{
+  "name": "node.js_harry_video",
+  "version": "1.0.0",
+  "description": "Learning Node.js from Code With Harry video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmed Raza Attari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./CSS/phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <title> Responsive Website </title>
+</head>
+
+<body>
+
+    <!-- NAVBAR SECTION -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./Images/logo.png" alt="My Logo">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home"> Home </a></li>
+            <li class="item"><a href="#services-container"> Services </a></li>
+            <li class="item"><a href="#client-section"> Our Client </a></li>
+            <li class="item"><a href="#contact"> Contact Us </a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <h1 class="h-primary"> This is My Website </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maxime quaerat autem itaque neque dignissimos.</p>
+        <p>Unde et deleniti, magnam soluta, nisi cumque repellendus quo alias.</p>
+        <button class="btn"> Order Now </button>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services-container">
+        <h1 class="h-primary center"> OUR SERVICES </h1>
+        <div id="services">
+            <div class="box">
+                <img src="./Images/mobile1.jpg" alt="">
+                <h2 class="h-secondary center"> Mobile Ordering </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis officiis magni unde beatae minus numquam mollitia quae officia doloribus eaque ratione dolore, aliquid magni Alias voluptatibus quo hic ipsa quaerat accusantium vero est.</p>
+            </div>
+            <div class="box">
+                <img src="./Images/mobile2.jpg" alt="">
+                <h2 class="h-secondary center"> Mobile Repairing </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis officiis magni unde beatae minus numquam mollitia quae officia doloribus eaque ratione dolore, aliquid magni Alias voluptatibus quo hic ipsa quaerat accusantium vero est.</p>
+            </div>
+            <div class="box">
+                <img src="./Images/mobile3.jpg" alt="">
+                <h2 class="h-secondary center"> Mobile Shops </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis officiis magni unde beatae minus numquam mollitia quae officia doloribus eaque ratione dolore, aliquid magni Alias voluptatibus quo hic ipsa quaerat accusantium vero est.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT SECTION -->
+    <section id="client-section">
+        <h1 class="h-primary center"> Our Clients </h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="./Images/Apple-logo.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/Samsung-logo.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/Huawei-logo.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/Oppo-logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h1 class="h-primary center"> Contact Us </h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name"> Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div> 
+                <div class="form-group">
+                    <label for="number"> Phone Number: </label>
+                    <input type="phone" name="number" id="number" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message"> Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="center">
+            Copyright &copy; www.ahmedrazaattari.com All rights reserved!
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

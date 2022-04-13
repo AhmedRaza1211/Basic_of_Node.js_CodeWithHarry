@@ -1,0 +1,17 @@
+1 - index.js
+2 - second.js (Import and Export) --> Read file of second.js in index.js
+3 - osmodule.js --> Here you get all information related to your 'operating system'
+4 - pathmodule.js --> Information related to paths
+5 - fsmodule.js --> read and write file
+6 - commonjs1 and commonjs2 --> Common js module
+7 - es6module1.js and es6module2.js --> es6 module have (.mjs) 
+8 - urlmodule.js 
+9 - nodejsevents.js --> Learn about 'events'
+10 - httpserver.js --> learn how to create server
+11 - website.js and index.html --> create server with multiple apis and also make website.
+12 - expressapp.js --> intro of express
+
+
+NOTE:
+    Learn more of NODE.JS from below link
+    https://nodejs.dev/learn/writing-files-with-nodejs
